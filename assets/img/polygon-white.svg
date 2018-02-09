@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="314" height="336" viewBox="0 0 314 336">
+  <defs>
+    <style type="text/css">
+      .cls-1 {
+        fill: #16162d;
+        fill-rule: evenodd;
+        opacity: 0.21;
+        filter: url(#filter);
+        fill: url(#Gradient1);
+      }
+        .stop1 { stop-color: black;  stop-opacity: 0.6; }
+    </style>
+    
+    <linearGradient id="Gradient1"  gradientTransform="rotate(-51)">
+        <stop class="stop1" offset="5%"/>
+        <stop class="stop2" offset="5%"/>
+      </linearGradient>
+    <filter id="filter" x="579" y="164" width="314" height="336" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" dx="5.818" dy="10.495" in="SourceAlpha"/>
+      <feGaussianBlur result="blur" stdDeviation="2.828"/>
+      <feFlood result="flood" flood-opacity="0.27"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feBlend result="blend" in="SourceGraphic"/>
+      <feImage preserveAspectRatio="none" x="580" y="164" width="299" height="318" result="image" xlink:href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMjk5IiBoZWlnaHQ9IjMxOCIgdmlld0JveD0iMCAwIDI5OSAzMTgiPgogIDxkZWZzPgogICAgPHN0eWxlPgogICAgICAuY2xzLTEgewogICAgICAgIGZpbGw6IHVybCgjbGluZWFyLWdyYWRpZW50KTsKICAgICAgfQogICAgPC9zdHlsZT4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0ibGluZWFyLWdyYWRpZW50IiB4MT0iMS4yMyIgeTE9IjMxOCIgeDI9IjI5Ny43NyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPgogICAgICA8c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiNmZmYiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIwLjU5MyIgc3RvcC1jb2xvcj0iI2FmYWZhZiIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjAuODg4IiBzdG9wLWNvbG9yPSIjZmZmIi8+CiAgICAgIDxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2RlZGVkZSIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICA8L2RlZnM+CiAgPHJlY3QgY2xhc3M9ImNscy0xIiB3aWR0aD0iMjk5IiBoZWlnaHQ9IjMxOCIvPgo8L3N2Zz4K"/>
+      <feComposite result="composite-2" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend-2" in2="blend"/>
+    </filter>
+  </defs>
+  <path id="Polygon_1_copy" data-name="Polygon 1 copy" class="cls-1" d="M879,400L659,482,580,313.587,687.472,164,863,219.957Z" transform="translate(-579 -164)"/>
+</svg>
